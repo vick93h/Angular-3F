@@ -25,6 +25,7 @@ export class TabellaComponent implements OnInit {
   async post()
   {
     let p:post=new post(this.posts.length+1,this.title_ng,this.author_ng);
+    this.rest.areaCondivisa.postAreadati=p;
     this.posts.push(p);
     await this.proposalTablaJsonDb(p);//scrive nel JsonDB tramite http
    // await this.getPost();//leggo dal JsonDb

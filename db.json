@@ -74,6 +74,26 @@
       "id": 15,
       "title": "circuiti",
       "author": "paolo"
+    },
+    {
+      "id": 16,
+      "title": "calcolatori",
+      "author": "casola"
+    },
+    {
+      "id": 17,
+      "title": "calcolator",
+      "author": "casola"
+    },
+    {
+      "id": 18,
+      "title": "metodi numerici",
+      "author": "betti"
+    },
+    {
+      "id": 19,
+      "title": "algoritmi",
+      "author": "ada"
     }
   ]
 }

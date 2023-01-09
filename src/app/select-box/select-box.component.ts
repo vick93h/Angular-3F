@@ -9,8 +9,9 @@ import { RestServiceService } from '../services/rest-service.service';
   styleUrls: ['./select-box.component.css']
 })
 export class SelectBoxComponent implements OnInit {
-  @Output() valuePremuto:EventEmitter<any>=new EventEmitter<any>();
+@Output() valuePremuto:EventEmitter<any>=new EventEmitter<any>();
 post!:post[];
+value:any;
 constructor(private restService:RestServiceService){}
   ngOnInit(): void {
     this.restService.getDati().subscribe((data:any)=>{this.post = data;});
@@ -24,7 +25,9 @@ constructor(private restService:RestServiceService){}
   }
 
 
-  updateSelect() {
-    this.restService.getDati().subscribe((data:any)=>{this.post = data;});
+  async updateSelect() {
+    if(this.restService.areaCondivisa.postAreadati!=null){
+    await this.post.push(this.restService.areaCondivisa.postAreadati);
+    }
   }
 }
