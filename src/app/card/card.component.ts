@@ -20,6 +20,10 @@ if(value!=undefined)
 }
 
 }
+saluto(stringa:any)
+{
+  console.log(stringa);
+}
   /*bufferToggle() {
     this.value = this.restService.areaCondivisa.selectValue;
     console.log(this.value);
