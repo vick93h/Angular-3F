@@ -94,6 +94,31 @@
       "id": 19,
       "title": "algoritmi",
       "author": "ada"
+    },
+    {
+      "id": 20,
+      "title": "storia",
+      "author": "padovan"
+    },
+    {
+      "id": 21,
+      "title": "deep learning",
+      "author": "michele"
+    },
+    {
+      "id": 22,
+      "title": "pippo",
+      "author": "baudo"
+    },
+    {
+      "id": 23,
+      "title": "giggi",
+      "author": "latrootola"
+    },
+    {
+      "title": "intelligenza artificiale",
+      "author": "stefano",
+      "id": 24
     }
   ]
 }
